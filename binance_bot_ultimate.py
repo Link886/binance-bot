@@ -4,8 +4,8 @@ from binance.client import Client
 # ============================================================
 # 🔑 API 配置（测试网，实盘时删掉 testnet=True）
 # ============================================================
-API_KEY = "gZN8yayvsUEINKpy1A0N0one8kFe0DXYatS9QaajwqjQ4u9FjWwy5qpHIiISIF"
-API_SECRET = "Rz92XpZ67I1fCkcGoYROcYLEXygEJGFMGJECvxGHC3MRLxhLQ4rJjxCetc3dPvG"
+API_KEY = "gZN8yayvsUEINKPylA0N0one8kFEoHXYyAtS9QwajwqjQN4u9FjVVVy5qpHiWSIf"
+API_SECRET = "Rz9ZXpZ67I1fCkcGoYROCyLEXyngEJGFMGJECvxGWC3MRLxhLQ4rJjxCetc3dPvG"
 
 client = Client(API_KEY, API_SECRET, testnet=True)
 
