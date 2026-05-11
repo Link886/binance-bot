@@ -1,5 +1,6 @@
 from binance.client import Client
 import time
+import os
 
 # ============================================================
 # 🔑 API 配置（测试网，实盘时删掉 testnet=True）
