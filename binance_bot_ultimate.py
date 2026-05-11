@@ -5,8 +5,8 @@ import os
 # ============================================================
 # 🔑 API 配置（测试网，实盘时删掉 testnet=True）
 # ============================================================
-API_KEY = "gZN8yayvsUEINKPylA0N0one8kFEoHXYyAtS9QwajwqjQN4u9FjVVVy5qpHiWSIf"
-API_SECRET = "Rz9ZXpZ67I1fCkcGoYROCyLEXyngEJGFMGJECvxGWC3MRLxhLQ4rJjxCetc3dPvG"
+API_KEY = os.environ.get"gZN8yayvsUEINKPylA0N0one8kFEoHXYyAtS9QwajwqjQN4u9FjVVVy5qpHiWSIf"
+API_SECRET = os.environ.get"Rz9ZXpZ67I1fCkcGoYROCyLEXyngEJGFMGJECvxGWC3MRLxhLQ4rJjxCetc3dPvG"
 
 client = Client(API_KEY, API_SECRET, testnet=True)
 
